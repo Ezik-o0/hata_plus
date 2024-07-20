@@ -1,0 +1,105 @@
+.header-line{
+    align-items: center;
+    background-color: #1f1f56;
+}
+
+.menu,
+.menu-social{
+    align-items: center;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.menu__link{
+    display: inline-block;
+    padding: 19px 10px;
+    color: #b1b1d2;
+    font-size: 14rem;
+    text-decoration: none;
+}
+
+.menu__link:hover{
+    color: #fd8300;
+}
+
+.menu__item:first-child .menu__link{
+    padding-left: 0;
+}
+
+
+.menu-social{
+    gap: 27px;
+}
+
+.menu-social__fb,
+.menu-social__tw,
+.menu-social__inst{
+    display: inline-block;
+    vertical-align: middle;
+    background: url(../img/social-psd.png);
+}
+
+.menu-social__fb{
+    width: 11px;
+    height: 19px;
+    background-position: 0 0;
+}
+
+.menu-social__fb:hover{
+    background-position: 0 -21px;
+}
+
+.menu-social__tw{
+    width: 19px;
+    height: 16px;
+    background-position: 40px 0;
+}
+
+.menu-social__tw:hover{
+    background-position: 40px 20px;
+}
+
+.menu-social__inst{
+    width: 20px;
+    height: 20px;
+    background-position: 20px 0;
+}
+
+.menu-social__inst:hover{
+    background-position: 20px -20px;
+}
+
+.wrapper-main{
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.information{
+    width: 75%;
+}
+
+.information-company__title{
+    margin: 0;
+    color: #24242b;
+    font-size: 30rem;
+}
+
+.information-company__text{
+    color: #666666;
+    font-size: 14rem;
+}
+
+.information-company__details{
+    color: #fd8300;
+    text-decoration: none;
+}
+
+.information-company__details:hover{
+    text-decoration: underline;
+}
+
+.main__band{
+    border-top: 1px solid #e4e4ec;
+    margin: 30px 0;
+}
