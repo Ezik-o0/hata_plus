@@ -254,8 +254,6 @@
     margin: 30px 0;
     width: 100%;
     border-collapse: collapse;
-    border-radius: 3px;
-    overflow: hidden;
 }
 
 .information-company__title-thead{
@@ -285,6 +283,10 @@
     border: 1px solid #cecedd;
 }
 
+/* .information-company:last-child .information-company__ordinary-cell-tbody{
+    border: none;
+} */
+
 .information-company__ordinary-cell-tbody:nth-child(1){
     text-align: left;
 }
@@ -303,6 +305,12 @@
     color: #fd8300;
     font-size: 14rem;
     font-weight: bold;
+}
+
+.main__band{
+    border: none;
+    border-top: 1px solid #e4e4ec;
+    margin: 30px 0;
 }
 
 .product-card__link{

@@ -32,27 +32,29 @@
 }
 
 .contacts-main{
+    margin: 40px 0;
     width: 100%;
     height: 255px;
 }
 
-.contacts-main-infa{
-    height: 135px;
-}
-
 .contacts-main__title{
-    margin-top: 40px;
+    margin: 0;
+    padding: 0 0 27px;
     color: #24242b;
     font-size: 24rem;
 }
 
 .contacts-main-infa__title{
+    margin: 0;
+    padding: 0 0 19px;
     color: #24242b;
     font-size: 14rem;
 }
 
 .contacts-main-infa__location,
 .contacts-main-infa__item{
+    margin: 0;
+    padding: 7px 0;
     color: #666;
     font-size: 14rem;
 }
@@ -69,4 +71,34 @@
     font-size: 16rem;
     text-decoration: underline;
 
+}
+
+.main__band{
+    border: none;
+    border-top: 1px solid #e4e4ec;
+    margin: 0;
+}
+
+.contacts-bundles{
+    margin: 40px 0;
+}
+
+.contacts-main-bundles,
+.geolocation{
+    width: 466%;
+    height: 300px;
+}
+
+.geolocation{
+    border: 1px solid #f0f0f0;
+}
+
+.contacts-main-bundles{
+    margin-left: 27px;
+}
+
+.contacts-main-bundles__title{
+    margin: 0 0 21px;
+    color: #24242b;
+    font-size: 14rem;
 }

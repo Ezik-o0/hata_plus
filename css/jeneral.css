@@ -192,12 +192,6 @@ body {
     background-color: #fd8300;
 }
 
-.main__band{
-    border: none;
-    border-top: 1px solid #e4e4ec;
-    margin: 30px 0;
-}
-
 .footer{
     background-color: #ededf5;
 }
