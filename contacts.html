@@ -64,34 +64,48 @@
                         </div>
                         <div class="contacts-main-infa">
                             <h2 class="contacts-main-infa__title">Реквізити</h2>
-                            <p class="contacts-main-infa__item">ЄДРПОУ 60045123, ІПН 991097555173</p>
-                            <p class="contacts-main-infa__item">Св.№59904423</p>
-                            <p class="contacts-main-infa__item">Р/р 11137539962221,</p>
-                            <p class="contacts-main-infa__item">Банк ХФ ПАТ КБ «ПРИВАТБАНК»</p>
+                            <p class="contacts-main-infa__item">
+                                ЄДРПОУ 60045123, ІПН 991097555173 <br>
+                                Св.№59904423
+                            </p>
+                             <p class="contacts-main-infa__item">
+                                 Р/р 11137539962221, <br>
+                                 Банк ХФ ПАТ КБ «ПРИВАТБАНК»
+                             </p>
                         </div>
                     </div>
                 </section>
                 <hr class="main__band">
                 <div class="contacts-bundles flex">
                     <address class="geolocation">
-                        
+                        <iframe class="geolocation" src="https://www.google.com/maps/d/embed?mid=1UFsXbzXE8jJOvBxJ638xW1k2gVY30Zc&ehbc=2E312F&noprof=1"></iframe>
                     </address>
                     <div class="contacts-main-bundles">
                         <h3 class="contacts-main-bundles__title">Форма зворотнього зв’язку</h3>
-                        <form action="">
-                            <div class="form-name">
-                                <p><input type="text" name="name" id="name"><label for="name"></label></input></p>
-                                <p><input type="text" name="number" id="number"><label for="number"></label></input></p>
+                        <form action="Post">
+                            <div class="form-contacts flex">
+                                <p class="form-contacts__item">
+                                    <input class="form-contacts__info" type="text" name="name" id="name" placeholder="Ваше ім’я">
+                                    <label for="name"></label>
+                                </p>
+                                <p class="form-contacts__item">
+                                    <input class="form-contacts__info" type="text" name="number" id="number" placeholder="Телефон">
+                                    <label for="number"></label>
+                                </p>
                             </div>
                             <div class="form-notification">
-                                <p><input type="text" name="notification" id="notification"><label for="notification"></label></input></p>
-                            </div>
-                            <div class="form-text">
-                                <textarea name="text" id="text"></textarea>
+                                <p class="form-notification__item">
+                                    <input class="form-notification__info" type="text" name="notification" id="notification" placeholder="Тема повідомлення">
+                                    <label for="notification"></label>
+                                </p>
+                                <textarea class="form-notification__text" name="text" id="text" placeholder="Текст"></textarea>
                             </div>
                             <div class="form-send">
-                                <p><input type="submit" value="Відправити"></p>
-                                <p><input type="checkbox" name="latestNews" id="latestNews">Я бажаю отримувати останні новини</p>
+                                <button class="form-send__button" type="submit" value="Відправити">Відправити</button>
+                                <p class="form-send__item">
+                                    <input class="form-send__mark" type="checkbox" name="latestNews" id="latestNews">
+                                    <label for="latestNews">Я бажаю отримувати останні новини</label>
+                                </p>
                             </div>
                         </form>
                     </div>
