@@ -243,6 +243,7 @@
 .information-company__title{
     color: #24242b;
     font-size: 24rem;
+    font-family: "Roboto Slab", serif;
 }
 
 .information-company__text{
@@ -254,12 +255,16 @@
     margin: 30px 0;
     width: 100%;
     border-collapse: collapse;
+    border-radius: 3px;
+    overflow: hidden;
 }
 
 .information-company__title-thead{
     padding: 15px;
     color: #fff;
-    font-size: 14rem;
+    font-size: 16rem;
+    font-family: "Roboto Slab", serif;
+    font-weight: 700;
     text-align: center;
     background-color: #1f1f56;
     border: 1px solid #274569;
@@ -283,9 +288,17 @@
     border: 1px solid #cecedd;
 }
 
-/* .information-company:last-child .information-company__ordinary-cell-tbody{
-    border: none;
-} */
+.information-company__line-tbody .information-company__ordinary-cell-tbody:first-child{
+    border-left: none;
+}
+
+.information-company__line-tbody .information-company__ordinary-cell-tbody:nth-child(5){
+    border-right: none;
+}
+
+.information-company__line-tbody:last-child .information-company__ordinary-cell-tbody{
+    border-bottom: none;
+}
 
 .information-company__ordinary-cell-tbody:nth-child(1){
     text-align: left;
@@ -329,6 +342,7 @@
 .popular__title{
     color: #24242b;
     font-size: 24rem;
+    font-family: "Roboto Slab", serif;
 }
 
 .product-card{
@@ -347,6 +361,7 @@
     padding: 9px 0;
     color: #1f1f56;
     font-size: 14rem;
+    font-family: "Roboto Slab", serif;
 }
 
 .product-card__text{

@@ -37,12 +37,14 @@
 }
 
 .information-company__title{
+    font-family: "Roboto Slab", serif;
     margin: 0;
     color: #24242b;
     font-size: 30rem;
 }
 
 .information-company__text{
+    line-height: 25px;
     color: #666666;
     font-size: 14rem;
 }
@@ -62,7 +64,8 @@
     margin: 0;
     padding: 5px 0;
     color: #ffffff;
-    font-size: 30rem;
+    font-size: 28rem;
+    font-family: "Roboto Slab", serif;
     text-transform: uppercase;
 }
 
@@ -100,6 +103,7 @@
 }
 
 .popular__title{
+    font-family: "Roboto Slab", serif;
     color: #24242b;
     font-size: 24rem;
 }
@@ -116,6 +120,7 @@
 }
 
 .product-card__title{
+    font-family: "Roboto Slab", serif;
     margin: 0;
     padding: 9px 0;
     color: #1f1f56;

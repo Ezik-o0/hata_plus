@@ -41,13 +41,15 @@
     padding-bottom: 27px;
     color: #24242b;
     font-size: 24rem;
+    font-family: "Roboto Slab", serif;
 }
 
 .contacts-main-infa__title{
     margin: 0;
     padding-bottom: 20px;
     color: #24242b;
-    font-size: 14rem;
+    font-size: 17rem;
+    font-family: "Roboto Slab", serif;
 }
 
 .contacts-main-infa__location,
@@ -63,6 +65,12 @@
     font-size: 18rem;
     font-weight: bold;
     text-decoration: none;
+}
+
+.contacts-main-infa__phone:hover,
+.contacts-main-infa__email:hover{
+    color: #fd8300;
+    text-decoration: underline;
 }
 
 .contacts-main-infa__email{
@@ -95,7 +103,8 @@
     margin: 0;
     margin-bottom: 21px;
     color: #24242b;
-    font-size: 14rem;
+    font-family: "Roboto Slab", serif;
+    font-size: 17rem;
 }
 
 .form-contacts__item,
@@ -127,6 +136,13 @@
     border: none;
     border: 1px solid #c5c5d4;
     border-radius: 3px;
+    outline: none;
+}
+
+.form-contacts__info:hover,
+.form-notification__info:hover,
+.form-notification__text:hover{
+    filter: drop-shadow(0 0 2.5px rgba(62,106,255,0.55));
 }
 
 ::placeholder{

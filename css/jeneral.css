@@ -173,7 +173,7 @@ body {
 .contacts__email:hover,
 .contacts__skype:hover{
     color: #fd8300;
-     text-decoration: underline;
+    text-decoration: underline;
 }
 
 .call__link {
