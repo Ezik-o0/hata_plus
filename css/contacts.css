@@ -85,9 +85,15 @@
     margin: 0;
 }
 
+.map{
+    overflow: hidden;
+}
+
 .geolocation{
-    width: 466px;
-    height: 295px;
+    width: 800px;
+    height: 350px;
+    margin-top: -47px;
+    border: none;
 }
 
 .contacts-bundles{
