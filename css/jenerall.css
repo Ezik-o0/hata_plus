@@ -141,3 +141,33 @@ a{
     color: #fff;
     background-color: #fd8300;
 }
+
+@media screen and (max-width: 1150px){
+    html{
+        font-size: 1px;
+    }
+    .wrapper-header::before{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .wrapper-header{
+        width: 100%;
+        display: inline-block;
+        text-align: center;
+        padding-top: 15px;
+    }
+    .logo{
+        width: 60%;
+        text-align: left;
+        padding-left: 10px;
+    }
+    .logo img{
+        height: 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    
+}
