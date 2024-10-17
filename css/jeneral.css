@@ -1,4 +1,4 @@
-html {
+/* html {
     font-size: 1px;
 }
 
@@ -12,6 +12,7 @@ body {
 .flex {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .sup__size {
@@ -224,4 +225,4 @@ body {
     margin: auto;
     padding: 15px;
     color: #9999a6;
-}
+} */

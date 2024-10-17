@@ -1,0 +1,225 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td{
+    box-sizing: border-box;
+}
+
+.ll{
+    min-width: 600px;
+    padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-bottom: 5px;
+}
+
+.op{
+    width: 20%;
+    background-color: #dcdce5;
+}
+
+.po{
+    width: 30%;
+    background-color: #f4f4f4;
+}
+
+.io{
+    background-color: #ededf5;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+p, a, b, i, h1, h2, h3, td{
+    margin: 0;
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.header-logo{
+    width: 100%;
+}
+
+.header__phone__infa{
+    text-align: right;
+}
+
+.header__phone{
+    font-size: 16px;
+    color: #25252c;
+    font-weight: bold;
+}
+
+i{
+    font-size: 13px;
+    color: #9999a6;
+    font-style: italic;
+}
+
+.lo{
+    width: 100%;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 35px;
+    padding-bottom: 35px;
+}
+
+h1{
+    padding-bottom: 20px;
+    font-size: 24px;
+    color: #24242b;
+}
+
+.lo p{
+    font-size: 14px;
+    line-height: 24px;
+    color: #666666;
+    margin-bottom: 20px;
+}
+
+.lo a{
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    font-size: 14px;
+    line-height: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    font-family: "Arial";
+    text-align: center;
+    border-radius: 20px;
+    background-color: #fd8300;
+}
+
+.main__infa{
+    width: 100%;
+    background-color: #ededf5;
+    text-align: center;
+}
+
+.main__infa img{
+    margin-top: 35px;
+}
+
+.main__infa b{
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 14px;
+    color: #24242b;
+}
+
+.main__infa p{
+    margin-top: 10px;
+    font-size: 13px;
+    color: #666666;
+    padding-bottom: 35px;
+}
+
+.main-home__infa img{
+    width: 100%;
+}
+
+.main-home__infa td{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid #e4e4ec;
+}
+
+.right{
+    padding-right: 30px;
+}
+
+.left{
+    padding-left: 30px;
+    margin-right: 20px;
+}
+
+.main-home__infa p{
+    font-size: 13px;
+    color: #9999a6;
+}
+
+.main-home__infa h3{
+    padding-bottom: 20px;
+    font-size: 16px;
+    color: #1f1f56;
+    font-weight: bold;
+}
+
+.on{
+    margin-bottom: 15px;
+}
+
+.footer-infa{
+    width: 100%;
+    text-align: center;
+    background-image: url(https://github.com/Ezik-o0/img-hata/blob/master/container.jpg?raw=true);
+    background-repeat: repeat;
+}
+
+.footer-infa h2{
+    font-size: 24px;
+    color: #ffffff;
+    font-weight: bold;
+    margin-top: 35px;
+    margin-bottom: 10px;
+}
+
+.footer-infa p{
+    font-size: 13px;
+    color: #ffffff;
+}
+
+.footer-infa a{
+    margin-bottom: 35px;
+    margin-top: 15px;
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 10px;
+    border-radius: 20px;
+    background-color: #1f1f56;
+    font-size: 14px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.footer-social{
+    width: 100%;
+    text-align: center;
+    background-color: #08081a;
+}
+
+.m{
+    padding-top: 35px;
+}
+
+.m a{
+    padding-left: 10px;
+}
+
+.n{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-size: 13px;
+    color: #9999a6;
+}
+
+.h{
+    width: 100%;
+    background-color: #000014;
+}
+
+.h a{
+    display: inline-block;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 11px;
+    color: #fd8300;
+}
