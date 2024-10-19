@@ -123,12 +123,14 @@ a{
 }
 
 .popular__title{
+    padding-top: 20px;
     font-family: "Roboto Slab", serif;
     color: #24242b;
     font-size: 24rem;
 }
 
 .product-card{
+    padding-top: 25px;
     position: relative;
     margin: 0;
     width: 30%;
@@ -154,20 +156,9 @@ a{
     font-size: 13rem;
 }
 
-@media screen and (max-width: 768px) {
-    .product-card{
-        width: 100%;
-    }
+.aside-burger{
+    position: sticky;
 }
-
-/* .aside-burger{
-    position: fixed;
-    right: 4%;
-    width: 300px;
-    z-index: 1;
-    width: %;
-    min-width: 300px;
-} */
 
 .aside-burger__menu{
     border-radius: 3px;
@@ -227,8 +218,33 @@ a{
     display: block;
 }
 
-@media screen and (max-width: 717px) {
+@media screen and (min-width: 320px) {
     .wrapper-main{
         padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .product-card{
+        width: 100%;
+    }
+    .aside-burger{
+        width: 100%;
+    }
+    .aside-burger__menu{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .product-card{
+        width: 45%;
+    }
+    .aside-burger{
+        width: 30%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .product-card{
+        width: 30%;
     }
 }
