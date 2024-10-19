@@ -4,9 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Компанія "Хата Плюс". Продаж Будинків В Україні</title>
-    <link rel="stylesheet" href="css/jenerall.css">
+    <link rel="stylesheet" href="css/jeneral.css">
     <link rel="stylesheet" href="css/asidde.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
+     
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@700&display=swap" rel="stylesheet">
 </head>
@@ -14,13 +15,40 @@
     <header class="header">
         <nav class="header-line">
             <div class="wrapper-menu flex">
-                <!-- <div class="burger">
-                    <spn></spn>
-                </div> -->
+                <div class="burger" id="burger">
+                    <span></span>
+                <div class="close" id="close">
+                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
+                        <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
+                    </svg>
+                </div>
+                    <script>
+                        burger.onclick = function(){
+                            burger.classList.toggle('moble-burger')
+                        }
+                        closeButton.onclick = function(){
+                            burger.classList.remove('moble-burger')
+                        }
+                    </script>
+                </div>
                 <ul class="menu flex">
                     <li class="menu__item"><a href="index.html" class="menu__link">Головна</a></li>
                     <li class="menu__item"><a href="#" class="menu__link">Про компанію</a></li>
-                    <li class="menu__item"><a href="price.html" class="menu__link">Наші будівлі</a></li>
+                    <li class="menu-header__item"><a href="#" class="menu-header__link">Наші будівлі</a>
+                        <ul class="menu-header-submenu">
+                            <li class="menu-header-submenu__item"><a href="#" class="menu-header-submenu__link">Таунхауси</a></li>
+                            <li class="menu-header-submenu__item"><a href="#" class="menu-header-submenu__link">Пентхауси</a></li>
+                            <li class="menu-header-submenu__item"><a href="#" class="menu-header-submenu__link">Котеджі</a></li>
+                            <li class="menu-header-submenu__item"><a href="#" class="menu-header-submenu__link">Собачі будки</a>
+                                <ul class="menu-header-sub-menu">
+                                    <li class="menu-header-sub-menu__item"><a href="#" class="menu-header-sub-menu__link">Елітні будки</a></li>
+                                    <li class="menu-header-sub-menu__item"><a href="#" class="menu-header-sub-menu__link">Для чіхуахуа</a></li>
+                                    <li class="menu-header-sub-menu__item"><a href="#" class="menu-header-sub-menu__link">Вольєри</a></li>
+                                    <li class="menu-header-sub-menu__item"><a href="#" class="menu-header-sub-menu__link">Халабуди</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </li>                    
                     <li class="menu__item"><a href="#" class="menu__link">Акції</a></li>
                     <li class="menu__item"><a href="contacts.html" class="menu__link">Контакти</a></li>
                 </ul>
@@ -48,7 +76,7 @@
             </div>
         </div>
     </header>
-    <!-- <main class="main">
+    <main class="main">
         <div class="banner">
             <div class="block">
                 <p class="block__text"><b>Пропозиція місяця</b></p>
@@ -121,7 +149,7 @@
                     </nav>
                 </aside>
             </div>
-     </main> -->
+     </main>
     <footer class="footer">
         <div class="wrapper-footer flex">
             <div class="lower-menu">

@@ -1,8 +1,8 @@
-/* html {
+html {
     font-size: 1px;
 }
 
-body {
+body{
     margin: 0;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 14rem;
@@ -26,203 +26,209 @@ body {
 .wrapper{
     margin: auto;
     width: 80%;
-    max-width: 1200px
+    max-width: 1200px;
+    min-width: 300px;
 }
 
-.menu-social{
-    gap: 27px;
-}
-
-.menu-social__fb,
-.menu-social__tw,
-.menu-social__inst{
-    display: inline-block;
-    vertical-align: middle;
-    background: url(../img/social-psd.png);
-}
-
-.menu-social__fb{
-    width: 11px;
-    height: 19px;
-    background-position: 0 0;
-}
-
-.menu-social__fb:hover{
-    background-position: 0 -21px;
-}
-
-.menu-social__tw{
-    width: 19px;
-    height: 16px;
-    background-position: 40px 0;
-}
-
-.menu-social__tw:hover{
-    background-position: 40px 20px;
-}
-
-.menu-social__inst{
-    width: 20px;
-    height: 20px;
-    background-position: 20px 0;
-}
-
-.menu-social__inst:hover{
-    background-position: 20px -20px;
-}
-
-.wrapper-header{
-    position: relative;
-    padding: 30px 0;
-}
-
-.phone{
-    padding: 0 25px;
-}
-
-.phone__item{
-    position: relative;
-    display: block;
-}
-
-.phone__link::before{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -15%;
-    width: 17px;
-    height: 17px;
-    transform: translateY(-60%);
-    background: url(../img/sprite_sicial.png);
-}
-
-.wrapper-header::before{
-    content: '';
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    width: 1px;
-    height: 55px;
-    background-color: #e4e4ec;
-    transform: translate(-50%, -50%);
-}
-
-.phone__item,
-.contacts__item,
-.call__item{
-    margin: 0;
-    padding: 5px 0;
-}
-
-.phone__link{
-    color: #25252c;
-    font-size: 18rem;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-.phone__item:last-child .phone__link::before{
-    display: none;
-}
-
-.contacts p{
-    padding: 5px 0;
-    margin: 0;
-}
-
-.contacts__email{
-    display: block;
-    position: relative;
-    color: #25252c;
-    font-size: 16rem;
-    text-decoration: none;
-}
-
-.contacts__email::before{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -18%;
-    width: 18px;
-    height: 13px;
-    transform: translateY(-60%);
-    background: url(../img/sprite_sicial.png);
-    background-position: 18px 0;
-}
-
-.contacts__skype{
-    display: block;
-    position: relative;
-    color: #25252c;
-    font-size: 16rem;
-    text-decoration: none;
-}
-
-.contacts__skype::before{
-    content: "";
-    position: absolute;
-    top: 50%;
-    left: -18%;
-    width: 19px;
-    height: 19px;
-    transform: translateY(-60%);
-    background: url(../img/sprite_sicial.png);
-    background-position: 38px 0;
-}
-
-.phone__link:hover,
-.contacts__email:hover,
-.contacts__skype:hover{
-    color: #fd8300;
-    text-decoration: underline;
-}
-
-.call__link {
-    display: inline-block;
-    padding: 12px 30px;
-    font-size: 14rem;
-    color: #25252c;
-    font-weight: bold;
-    border: 2px solid #fd8300;
-    border-radius: 25px;
-    text-decoration: none;
-}
-
-.call__link:hover {
-    color: #fff;
-    background-color: #fd8300;
-}
-
-.footer{
-    background-color: #ededf5;
-}
-
-.wrapper-footer{
-    padding: 29px 0;
-}
-
-.lower-menu__list{
-    list-style: none;
+p, h1, h3, h2{
     margin: 0;
     padding: 0;
 }
 
-.lower-menu__link{
-    color: #666666;
-    font-size: 14rem;
+a{ 
+    display: inline-block;
     text-decoration: none;
 }
 
-.lower-menu__link:hover{
+.banner {
+    text-align: center;
+    padding: 40px 0;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(../img/cotage.jpg);
+    background-size: cover;
+}
+
+.block__text{
+    margin: 0;
+    padding: 5px 0;
+    color: #ffffff;
+    font-size: 28rem;
+    font-family: "Roboto Slab", serif;
+    text-transform: uppercase;
+}
+
+.block__promotion{
+    margin: 0;
+    padding: 10px 0;
+    color: #ffffff;
+    font-size: 14rem;   
+}
+  
+.block__price{
+    margin: 0;
+    color: #fd8300;
+    font-size: 40rem;
+    font-weight: bold;
+}
+
+.wrapper-main{
+    gap: 30px;
+    padding: 40px 0;
+}
+
+.information{
+    width: 75%;
+    flex: 1 0 300px;
+}
+
+.information-company__title{
+    padding-bottom: 10px;
+    font-size: 30rem;
+    color: #24242b;
+    font-family: "Roboto Slab";
+}
+
+.information-company__text{
+    padding-top: 10px;
+    line-height: 25px;
+    font-size: 14rem;
+    color: #666;
+    font-family: "Arial";
+}
+
+.information-company__details{
+    padding-bottom: 30px;
+    font-size: 14rem;
+    font-weight: bold;
+    padding-top: 25px;
+    text-decoration: underline;
     color: #fd8300;
 }
 
-.footer .wrapper-line{
-    background-color: #dcdce6;
+.main__band{
+    border: none;
+    border: 1px solid #e4e4ec;
 }
 
-.copy{
-    margin: auto;
-    padding: 15px;
+.product-card__link{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    color: #1f1f56;
+}
+
+.product-card:hover .product-card__title{
+    text-decoration: underline;
+}
+
+.popular__title{
+    font-family: "Roboto Slab", serif;
+    color: #24242b;
+    font-size: 24rem;
+}
+
+.product-card{
+    position: relative;
+    margin: 0;
+    width: 30%;
+    gap: 10px;
+}
+
+.product-card__house{
+    width: 100%;
+}
+
+.product-card__title{
+    font-family: "Roboto Slab", serif;
+    margin: 0;
+    padding: 9px 0;
+    color: #1f1f56;
+    font-size: 14rem;
+}
+
+.product-card__text{
+    margin: 0;
+    padding: 5px 0;
     color: #9999a6;
+    font-size: 13rem;
+}
+
+@media screen and (max-width: 768px) {
+    .product-card{
+        width: 100%;
+    }
+}
+
+/* .aside-burger{
+    position: fixed;
+    right: 4%;
+    width: 300px;
+    z-index: 1;
+    width: %;
+    min-width: 300px;
 } */
+
+.aside-burger__menu{
+    border-radius: 3px;
+    overflow: hidden;
+    width: 220px;
+}
+
+.aside-burger__title{
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    font-size: 16rem;
+    background-color: #1f1f56;
+}
+
+.aside-burger__list,
+.aside-burge-submenu{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.aside-burger__link,
+.aside-burger-submenu__link{
+    display: block;
+    padding: 15px;
+    color: #25252c;
+    font-size: 14rem;
+    text-decoration: none;
+    background-color: #e4e4ec;
+    border-bottom: 1px solid #cdcddd;
+}
+
+.aside-burger__list>li:last-child .aside-burger__link{
+    border: none;
+}
+
+.aside-burge-submenu{
+    display: none;
+}
+
+.aside-burger-submenu__link{
+    color: #666;
+    padding-left: 30px;
+}
+
+.aside-burger__link:hover{
+    background: #fd8300;
+    color: #fff;
+}
+
+.aside-burger-submenu__link:hover{
+    background-color: #cecedd;
+}
+
+.aside-burger__item:hover .aside-burge-submenu{
+    display: block;
+}
+
+@media screen and (max-width: 717px) {
+    .wrapper-main{
+        padding-top: 10px;
+    }
+}
