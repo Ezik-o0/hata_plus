@@ -113,6 +113,7 @@
 
 .form-notification__text{
     height: 67px;
+    max-height: 70px;
 }
 
 .form-send__button{
@@ -233,6 +234,10 @@ input:checked+label[for="latestNews"]::after{
     }
 }
 @media screen and (min-width: 1440px){
+    .geolocation{
+        width: 400px;
+        height: 350px;
+    }
     .contacts-main-bundles {
         width: 60%;
     }

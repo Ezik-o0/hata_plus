@@ -13,22 +13,7 @@
     <header class="header">
         <nav class="header-line">
             <div class="wrapper-menu flex">
-                <div class="burger" id="burger">
-                    <span></span>
-                <div class="close" id="close">
-                    <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100" height="100" viewBox="0 0 50 50">
-                        <path d="M 9.15625 6.3125 L 6.3125 9.15625 L 22.15625 25 L 6.21875 40.96875 L 9.03125 43.78125 L 25 27.84375 L 40.9375 43.78125 L 43.78125 40.9375 L 27.84375 25 L 43.6875 9.15625 L 40.84375 6.3125 L 25 22.15625 Z"></path>
-                    </svg>
-                </div>
-                    <script>
-                        burger.onclick = function(){
-                            burger.classList.toggle('moble-burger')
-                        }
-                        closeButton.onclick = function(){
-                            burger.classList.remove('moble-burger')
-                        }
-                    </script>
-                </div>
+                
                 <div class="burger" id="burger">
                     <span></span>
                 <div class="close" id="close">
@@ -97,64 +82,66 @@
                     <h1 class="information-company__title">Ціни на послуги тимчасового проживання</h1>
                     <p class="information-company__text">Кожен котедж оснащений комфортабельними меблями, супутниковим ТБ, душем, туалетом, холодильником, Wi-Fi-зоною.</p>
                     <p class="information-company__text">Послуга може бути надана кожному з наших гостей, незалежно від терміну проживання в готелі та категорії обраного номера.</p>
-                    <table class="information-company__service">
-                        <thead class="thead information-company">
-                            <tr class="information-company__line-thead">
-                                <th rowspan="2" class="information-company__title-thead">Назва котеджу</th>
-                                <th colspan="3" class="information-company__title-thead">Характеристики будинків</th>
-                                <th rowspan="2" class="information-company__title-thead">Ціна</th>
-                            </tr>
-                            <tr>
-                                <th class="information-company__title-thead">Загальна площа м.кв.</th>
-                                <th class="information-company__title-thead">Кількість кімнат</th>
-                                <th class="information-company__title-thead">Гараж</th>
-                            </tr>
-                        </thead>
-                        <tbody class="tbody information-company">
-                            <tr class="information-company__line-tbody">
-                                <td class="information-company__ordinary-cell-tbody">Hamilton Paradise</td>
-                                <td class="information-company__ordinary-cell-tbody">392</td>
-                                <td class="information-company__ordinary-cell-tbody">5</td>
-                                <td class="information-company__ordinary-cell-tbody">2</td>
-                                <td class="information-company__ordinary-cell-tbody">45 000 $</td>
-                            </tr>
-                            <tr class="information-company__line-tbody">
-                                <td class="information-company__ordinary-cell-tbody">Montreal Hourse House</td>
-                                <td class="information-company__ordinary-cell-tbody">295</td>
-                                <td class="information-company__ordinary-cell-tbody">3</td>
-                                <td class="information-company__ordinary-cell-tbody">1</td>
-                                <td class="information-company__ordinary-cell-tbody">29 750 $</td>
-                            </tr>
-                            <tr class="information-company__line-tbody">
-                                <td class="information-company__ordinary-cell-tbody">Edmenton</td>
-                                <td class="information-company__ordinary-cell-tbody">338</td>
-                                <td class="information-company__ordinary-cell-tbody">2</td>
-                                <td class="information-company__ordinary-cell-tbody">2</td>
-                                <td class="information-company__ordinary-cell-tbody">53 200 $</td>
-                            </tr>
-                            <tr class="information-company__line-tbody">
-                                <td class="information-company__ordinary-cell-tbody">Calgary Skyliner</td>
-                                <td class="information-company__ordinary-cell-tbody">249</td>
-                                <td class="information-company__ordinary-cell-tbody">2</td>
-                                <td class="information-company__ordinary-cell-tbody">1</td>
-                                <td class="information-company__ordinary-cell-tbody">31 000 $</td>
-                            </tr>
-                            <tr class="information-company__line-tbody">
-                                <td class="information-company__ordinary-cell-tbody">Quebec Enterprices</td>
-                                <td class="information-company__ordinary-cell-tbody">392</td>
-                                <td class="information-company__ordinary-cell-tbody">4</td>
-                                <td class="information-company__ordinary-cell-tbody">2</td>
-                                <td class="information-company__ordinary-cell-tbody">110 000 $</td>
-                            </tr>
-                            <tr class="information-company__line-tbody">
-                                <td class="information-company__ordinary-cell-tbody">Alberta Maria</td>
-                                <td class="information-company__ordinary-cell-tbody">349</td>
-                                <td class="information-company__ordinary-cell-tbody">1</td>
-                                <td class="information-company__ordinary-cell-tbody">3</td>
-                                <td class="information-company__ordinary-cell-tbody">67 500 $</td>
-                            </tr>
-                        </tbody>
-                    </table>
+                    <div class="table">
+                        <table class="information-company__service">
+                            <thead class="thead information-company">
+                                <tr class="information-company__line-thead">
+                                    <th rowspan="2" class="information-company__title-thead">Назва котеджу</th>
+                                    <th colspan="3" class="information-company__title-thead">Характеристики будинків</th>
+                                    <th rowspan="2" class="information-company__title-thead">Ціна</th>
+                                </tr>
+                                <tr>
+                                    <th class="information-company__title-thead">Загальна площа м.кв.</th>
+                                    <th class="information-company__title-thead">Кількість кімнат</th>
+                                    <th class="information-company__title-thead">Гараж</th>
+                                </tr>
+                            </thead>
+                            <tbody class="tbody information-company">
+                                <tr class="information-company__line-tbody">
+                                    <td class="information-company__ordinary-cell-tbody">Hamilton Paradise</td>
+                                    <td class="information-company__ordinary-cell-tbody">392</td>
+                                    <td class="information-company__ordinary-cell-tbody">5</td>
+                                    <td class="information-company__ordinary-cell-tbody">2</td>
+                                    <td class="information-company__ordinary-cell-tbody">45 000 $</td>
+                                </tr>
+                                <tr class="information-company__line-tbody">
+                                    <td class="information-company__ordinary-cell-tbody">Montreal Hourse House</td>
+                                    <td class="information-company__ordinary-cell-tbody">295</td>
+                                    <td class="information-company__ordinary-cell-tbody">3</td>
+                                    <td class="information-company__ordinary-cell-tbody">1</td>
+                                    <td class="information-company__ordinary-cell-tbody">29 750 $</td>
+                                </tr>
+                                <tr class="information-company__line-tbody">
+                                    <td class="information-company__ordinary-cell-tbody">Edmenton</td>
+                                    <td class="information-company__ordinary-cell-tbody">338</td>
+                                    <td class="information-company__ordinary-cell-tbody">2</td>
+                                    <td class="information-company__ordinary-cell-tbody">2</td>
+                                    <td class="information-company__ordinary-cell-tbody">53 200 $</td>
+                                </tr>
+                                <tr class="information-company__line-tbody">
+                                    <td class="information-company__ordinary-cell-tbody">Calgary Skyliner</td>
+                                    <td class="information-company__ordinary-cell-tbody">249</td>
+                                    <td class="information-company__ordinary-cell-tbody">2</td>
+                                    <td class="information-company__ordinary-cell-tbody">1</td>
+                                    <td class="information-company__ordinary-cell-tbody">31 000 $</td>
+                                </tr>
+                                <tr class="information-company__line-tbody">
+                                    <td class="information-company__ordinary-cell-tbody">Quebec Enterprices</td>
+                                    <td class="information-company__ordinary-cell-tbody">392</td>
+                                    <td class="information-company__ordinary-cell-tbody">4</td>
+                                    <td class="information-company__ordinary-cell-tbody">2</td>
+                                    <td class="information-company__ordinary-cell-tbody">110 000 $</td>
+                                </tr>
+                                <tr class="information-company__line-tbody">
+                                    <td class="information-company__ordinary-cell-tbody">Alberta Maria</td>
+                                    <td class="information-company__ordinary-cell-tbody">349</td>
+                                    <td class="information-company__ordinary-cell-tbody">1</td>
+                                    <td class="information-company__ordinary-cell-tbody">3</td>
+                                    <td class="information-company__ordinary-cell-tbody">67 500 $</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
                     <p class="information-company__text">Час заселення з 14-00, виїзд до 12-00.</p>
                     <p class="information-company__text">Можлива погодинна оренда котеджу (мінімальний час оренди - 5 днів).</p>
                     <p><a href="#" class="information-company__details">Ознайомитись з правилами проживання</a></p>
