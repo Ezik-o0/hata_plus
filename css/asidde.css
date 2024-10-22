@@ -1,3 +1,45 @@
+html {
+    font-size: 1px;
+}
+
+body{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14rem;
+    background: #fff;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.sup__size {
+    font-size: 0.5em;
+}
+
+.wrapper-menu,
+.wrapper-header,
+.wrapper-main,
+.wrapper-footer,
+.wrapper{
+    margin: auto;
+    width: 80%;
+    max-width: 1200px;
+    min-width: 300px;
+}
+
+p, h1, h3, h2{
+    margin: 0;
+    padding: 0;
+}
+
+a{ 
+    display: inline-block;
+    text-decoration: none;
+}
+
 .header-line{
     background-color: #1f1f56;
 }
