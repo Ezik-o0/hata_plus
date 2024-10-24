@@ -153,6 +153,9 @@
         width: 100%;
         overflow-y: auto;
     }
+    .information-company__service{
+        min-width: auto;
+    }
 }
 
 @media screen and (min-width: 768px) {
