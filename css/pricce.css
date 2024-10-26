@@ -79,6 +79,7 @@
 
 .information-company__line-tbody:hover .information-company__ordinary-cell-tbody{
     color: #fff;
+    border: none;
     border-collapse: collapse;
     background-color: #fd8300;
 }
@@ -95,7 +96,6 @@
     border: none;
     border: 1px solid #e4e4ec;
 }
-
 
 .product-card__link{
     position: absolute;
