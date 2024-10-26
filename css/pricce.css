@@ -10,6 +10,10 @@
     font-family: "Roboto Slab", serif;
 }
 
+.table{
+    margin: 25px 0;
+}
+
 .information-company__text{
     margin-bottom: 10px;
     color: #666666;
@@ -17,8 +21,8 @@
 }
 
 .information-company__service{
-    margin: 30px 0;
     width: 100%;
+    min-width: 700px;
     border-collapse: collapse;
     border-radius: 3px;
     overflow: hidden;
@@ -80,7 +84,7 @@
 }
 
 .information-company__details{
-    padding-top: 25px;
+    padding-top: 15px;
     padding-bottom: 30px;
     color: #fd8300;
     font-size: 14rem;
@@ -122,7 +126,6 @@
 
 .product-card__house{
     width: 100%;
-    height: 200px;
 }
 
 .product-card__title{
@@ -144,7 +147,10 @@
     margin-bottom: 40px;
 }
 
-@media screen and (min-width: 320px) {
+@media screen and (min-width: 320px){
+    .popular-cards {
+        margin-bottom: 0;
+    }
     .product-card{
         width: 100%;
         padding-bottom: 20px;
@@ -154,7 +160,22 @@
         overflow-y: auto;
     }
     .information-company__service{
-        min-width: auto;
+        min-width: 700px;
+    }
+}
+
+@media screen and (min-width: 425px){
+    .product-card__house{
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 589px){
+    .product-card__house{
+        width: 100%;
+    }
+    .product-card{
+        width: 45%;
     }
 }
 
@@ -165,6 +186,9 @@
 }
 
 @media screen and (min-width: 1024px){
+    .popular-cards {
+        margin-bottom: 40px;
+    }
     .product-card{
         width: 32%;
     }

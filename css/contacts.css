@@ -9,7 +9,6 @@
 
 .contacts-main__title{
     margin: 0;
-    padding-bottom: 27px;
     color: #24242b;
     font-size: 24rem;
     font-family: "Roboto Slab", serif;
@@ -90,7 +89,7 @@
 .form-contacts__info,
 .form-notification__info,
 .form-notification__text{
-    margin: 5px;
+    margin-bottom: 5px;
     padding: 12px 0;
     border: none;
     border: 1px solid #c5c5d4;
@@ -133,7 +132,6 @@
 }
 
 .form-send{
-    display: flex;
     align-items: center;
     gap: 30px;
 }
@@ -153,13 +151,12 @@ input[type="checkbox"]{
 
 label[for="latestNews"]::before{
     content: '';
-        position: absolute;
-        top: 1px;
-        left: -5px;
-        width: 15px;
-        height: 15px;
-        border: 1px solid #c5c5d4;
-        border-radius: 3px;
+    position: absolute;
+    left: -5px;
+    width: 15px;
+    height: 15px;
+    border: 1px solid #c5c5d4;
+    border-radius: 3px;
 }
 
 input:checked+label[for="latestNews"]::after{
@@ -190,17 +187,57 @@ input:checked+label[for="latestNews"]::after{
     .map{
         width: 100%;
     }
+    .geolocation{
+        width: 100%;
+    }
     .contacts-main{
         text-align: center;
     }
     .contacts-main-infa{
+        padding-top: 25px;
         width: 100%;
         text-align: center;
     }
+    .contacts-main-infa__title{
+        padding-bottom: 15px;
+    }
+    .form-send__button{
+        width: 100%;
+    }
+    .form-send__item{
+        padding-top: 5px;
+    }
 }
+
+@media screen and (min-width: 425px){
+    .contacts-main{
+        text-align: left;
+    }
+    .contacts-main-infa{
+        width: 50%;
+        text-align: left;
+    }
+}
+
 @media screen and (min-width: 768px){
     .geolocation{
         width: 100%;
+    }
+    .contacts-main{
+        text-align: left;
+    }
+    .contacts-main-infa{
+        width: 25%;
+        text-align: left;
+    }
+    .form-contacts__item{
+        width: 49%;
+    }
+    .form-send{
+        display: flex;
+    }
+    .form-send__button{
+        width: 30%;
     }
     /* .contacts-main-infa{
         width: 50%;
@@ -209,10 +246,10 @@ input:checked+label[for="latestNews"]::after{
         text-align: left;
     } */
 }
+
 @media screen and (min-width: 1024px){
     .geolocation{
-        width: 400px;
-        height: 400px;
+        width: 100%;
     }
     .form-contacts__info,
     .form-notification__info,
@@ -220,10 +257,19 @@ input:checked+label[for="latestNews"]::after{
         width: 100%;
     }
     .contacts-main-bundles{
-        width: 389px;
+        width: 45%;
     }
     .map{
-        width: 400px;
+        width: 50%;
+    }
+    .form-contacts__item{
+        width: 49%;
+    }
+    .form-send{
+        display: block;
+    }
+    .form-send__button{
+        width: 100%;
     }
     .contacts-main{
         text-align: left;
@@ -234,17 +280,16 @@ input:checked+label[for="latestNews"]::after{
     }
 }
 @media screen and (min-width: 1440px){
-    .geolocation{
-        width: 400px;
-        height: 350px;
+    .map{
+        width: 50%;
     }
-    .contacts-main-bundles {
-        width: 60%;
-    }
-    .form-contacts__info{
-        width: 98%;
+    .form-send__button{
+        width: 30%;
     }
     .form-contacts__item{
-        width: 50%;
+        width: 49%;
+    }
+    .form-send{
+        display: flex;
     }
 }
