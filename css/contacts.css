@@ -112,8 +112,8 @@
 }
 
 .form-notification__text{
+    resize: none;
     height: 67px;
-    max-height: 70px;
 }
 
 .form-send__button{
@@ -207,7 +207,7 @@ input:checked+label[for="latestNews"]::after{
     }
     .form-send__item{
         padding-top: 5px;
-    }
+    } 
 }
 
 @media screen and (min-width: 425px){
@@ -263,15 +263,16 @@ input:checked+label[for="latestNews"]::after{
     }
     .map{
         width: 45%;
+        height: 252px;
     }
     .form-contacts__item{
         width: 49%;
     }
     .form-send{
-        display: block;
+        display: flex;
     }
     .form-send__button{
-        width: 100%;
+        width: 33%;
     }
     .contacts-main{
         text-align: left;
@@ -289,7 +290,7 @@ input:checked+label[for="latestNews"]::after{
         width: 45%;
     }
     .form-send__button{
-        width: 30%;
+        width: 24%;
     }
     .form-contacts__item{
         width: 49%;
