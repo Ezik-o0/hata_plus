@@ -335,6 +335,7 @@ svg:hover{
 
     .menu{
         display: flex;
+        padding: 0;
     }
     .menu__link,
     .menu-header__link{
